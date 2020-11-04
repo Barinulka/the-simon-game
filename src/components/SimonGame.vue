@@ -129,7 +129,7 @@ export default {
             switch (box) {
                 case 1:
                     this.lit1 = true;  // Делаем класс lit активным, для подсвечивания
-                    var audio1 = new Audio(require('./../assets/sounds/1.ogg'));
+                    var audio1 = new Audio(require('./../assets/1.ogg'));
                     audio1.play();  // Проигрываем аудио файл 
                     setTimeout(function(){
                         self.lit1 = false; // Делаем класс lit неактивным
@@ -137,7 +137,7 @@ export default {
                 break;
                 case 2:
                     this.lit2 = true;
-                    var audio2 = new Audio(require('./../assets/sounds/2.ogg'));
+                    var audio2 = new Audio(require('../assets/2.ogg')); // './../assets/sounds/2.ogg'
                     audio2.play();
                     setTimeout(function(){
                         self.lit2 = false;
@@ -145,7 +145,7 @@ export default {
                 break;
                 case 3:
                     this.lit3 = true;
-                    var audio3 = new Audio(require('./../assets/sounds/3.ogg'));
+                    var audio3 = new Audio(require('./../assets/3.ogg'));
                     audio3.play();
                     setTimeout(function(){
                         self.lit3 = false;
@@ -153,7 +153,7 @@ export default {
                 break;
                 case 4:
                     this.lit4 = true;
-                    var audio4 = new Audio(require('./../assets/sounds/4.ogg'));
+                    var audio4 = new Audio(require('./../assets/4.ogg'));
                     audio4.play();
                     setTimeout(function(){
                         self.lit4 = false;
